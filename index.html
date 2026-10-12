@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#285943" />
+    <meta name="description" content="Esercizio interattivo sui pronomi relativi CHE e CUI." />
+    <title>CHE + CUI | 好好意语</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand">好好意语</div>
+      <div class="header-copy">
+        <p class="eyebrow">Grammatica · A2–B1</p>
+        <h1>CHE + CUI</h1>
+        <p>Riconosci e ricostruisci le frasi relative.</p>
+      </div>
+    </header>
+
+    <main class="app-shell">
+      <nav class="progress" aria-label="Avanzamento dell'esercizio">
+        <span class="progress-step is-active" data-progress="1">1</span>
+        <span class="progress-line" aria-hidden="true"></span>
+        <span class="progress-step" data-progress="2">2</span>
+        <span class="progress-line" aria-hidden="true"></span>
+        <span class="progress-step" data-progress="3">3</span>
+        <span class="progress-line" aria-hidden="true"></span>
+        <span class="progress-step" data-progress="4">4</span>
+        <span class="progress-line" aria-hidden="true"></span>
+        <span class="progress-step progress-finish" data-progress="5">✓</span>
+      </nav>
+
+      <section id="exercise-screen" class="screen" aria-live="polite">
+        <div class="part-heading">
+          <p id="part-kicker" class="eyebrow">Parte 1 di 4</p>
+          <h2 id="part-title">Trova la frase relativa</h2>
+          <p id="instruction-it" class="instruction-it"></p>
+          <p id="instruction-zh" class="instruction-zh" lang="zh-CN"></p>
+        </div>
+
+        <div id="part-tip" class="tip-box" hidden></div>
+        <div id="page-status" class="page-status"></div>
+        <div id="questions" class="questions"></div>
+
+        <div id="part-feedback" class="part-feedback" role="status" hidden></div>
+
+        <div class="navigation-row">
+          <button id="back-button" class="button button-secondary" type="button">Indietro</button>
+          <button id="page-next-button" class="button button-primary" type="button">Avanti</button>
+          <button id="check-button" class="button button-primary" type="button" hidden>Controlla</button>
+          <button id="continue-button" class="button button-primary" type="button" hidden>Continua</button>
+        </div>
+      </section>
+
+      <section id="result-screen" class="screen result-screen" hidden>
+        <div class="celebration" aria-hidden="true">✓</div>
+        <p class="eyebrow">Esercizio completato</p>
+        <h2>Complimenti! Hai completato l'esercizio!</h2>
+        <div class="learning-summary">
+          <h3>Oggi hai imparato a:</h3>
+          <ul>
+            <li>riconoscere la frase relativa;</li>
+            <li>distinguere CHE e CUI;</li>
+            <li>capire quando CHE è soggetto o complemento oggetto;</li>
+            <li>riconoscere le forme DI CUI / A CUI / CON CUI / SU CUI / IN CUI / PER CUI;</li>
+            <li>capire da dove viene la preposizione davanti a CUI.</li>
+          </ul>
+        </div>
+        <div id="review-section" class="review-section" hidden>
+          <h3>Da ripassare</h3>
+          <p>Rileggi ad alta voce queste forme corrette.</p>
+          <div id="review-list"></div>
+        </div>
+        <button id="restart-button" class="button button-primary" type="button">Ricomincia</button>
+      </section>
+    </main>
+
+    <footer>好好意语 · Imparare con calma, un passo alla volta.</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
