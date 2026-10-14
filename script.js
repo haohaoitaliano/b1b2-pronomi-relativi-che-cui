@@ -52,7 +52,7 @@ const reconstructions = [
   { source: "Il corso a cui mi sono iscritta...", answers: ["Mi sono iscritta al corso", "Al corso mi sono iscritta"], display: "Mi sono iscritta al corso.", note: "iscriversi a qualcosa → al corso" },
   { source: "Il progetto di cui si occupa Marco...", answers: ["Marco si occupa del progetto", "Del progetto si occupa Marco"], display: "Marco si occupa del progetto.", note: "occuparsi di qualcosa → del progetto" },
   { source: "La sedia su cui ho lasciato la borsa...", answers: ["Ho lasciato la borsa sulla sedia", "Sulla sedia ho lasciato la borsa"], display: "Ho lasciato la borsa sulla sedia.", note: "lasciare qualcosa su un posto → sulla sedia" },
-  { source: "Il motivo per cui sono arrivata in ritardo...", answers: ["Sono arrivata in ritardo per questo motivo", "Per questo motivo sono arrivata in ritardo"], display: "Sono arrivata in ritardo per questo motivo.", note: "per indica la causa → per questo motivo" }
+  { source: "Il motivo per cui sono arrivata in ritardo...", answers: ["Sono arrivata in ritardo per questo motivo", "Per questo motivo sono arrivata in ritardo", "Sono arrivata in ritardo per il motivo", "Per il motivo sono arrivata in ritardo", "Sono arrivata in ritardo per un motivo", "Per un motivo sono arrivata in ritardo"], display: "Sono arrivata in ritardo per questo motivo / per il motivo / per un motivo.", note: "per indica la causa → per questo motivo / per il motivo / per un motivo" }
 ];
 
 const partConfig = {
